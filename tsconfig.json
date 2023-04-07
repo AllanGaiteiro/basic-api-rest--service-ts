@@ -13,5 +13,10 @@
       "*": ["node_modules/*", "src/types/*"]
     }
   },
-  "include": ["src/**/*", "node_modules/express"]
+  "include": [
+    "src/**/*",
+    "node_modules/express",
+    "node_modules/swagger-jsdoc/types/index.d.ts",
+    "node_modules/swagger-ui-express"
+  ]
 }
